@@ -1,5 +1,15 @@
 # 102project3
 
+Team Members
+Nzeribe Francis Anomnachi - Repo owner
+oji niracle Chukwudi
+OBEY- FABIYI Timilehin
+Okoli Arinze promise
+John-Maduagwu David
+
+
+Indiviual contributions
+
 oji niracle Chukwudi worked on the header section of the project 
 
 OBEY- FABIYI Timilehin stephen worked on the about section of the project
