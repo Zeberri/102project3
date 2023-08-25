@@ -1,0 +1,356 @@
+/* responsiveness  for tablets */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  
+
+  header {
+    flex-direction: column;
+    background: url(./images/header-bcg-pic.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-left-div-inner-div p {
+    font-size: 25px;
+  }
+
+  .header-right-div-inner-div p {
+    font-size: 25px;
+  }
+
+  .header-right-div-inner-div p {
+    font-size: 25px;
+    justify-content: start;
+  }
+
+  .session-info {
+    justify-content: start;
+  }
+
+  .explore-admission-div {
+    justify-content: start;
+  }
+
+  .explore-admission {
+    width: 170px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .about-section-picture-div {
+    width: 40%;
+    gap: 60px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-pic-cutout {
+    display: none;
+  }
+
+  .content-block-div {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+   
+  }
+
+  .content-block {
+    margin-top: 100%;
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-block h2 {
+    margin-top: 10px;
+    width: auto;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .content-block article {
+    width: auto;
+  }
+
+  .content-block a {
+    width: 110px;
+    height: 50px;
+  }
+
+  .tour-section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+  }
+
+  .tour-pic {
+    width: 40%;
+    height: 88%;
+    background: url(./images/tour\ pic1.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .tour-pic2 {
+    width: 40%;
+    height: 88%;
+    background: url(./images/tour-pic2.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-panel1 {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .school-name {
+    margin-right: 100%;
+  }
+
+  .footer-panel2 {
+    width: 100%;
+    height: 100%;
+    background-color: #e4bc7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-bubble1 {
+    width: 50px;
+    height: 50px;
+    top: 9%;
+    left: 20%;
+  }
+  .profile-bubble2 {
+    width: 50px;
+    height: 50px;
+    top: 61%;
+    left: 75%;
+  }
+  .profile-bubble3 {
+    width: 40px;
+    height: 40px;
+    top: 8%;
+    left: 74%;
+  }
+  .profile-bubble4 {
+    width: 46px;
+    height: 46px;
+    top: 70%;
+    left: 27%;
+  }
+  .profile-bubble5 {
+    width: 30px;
+    height: 30px;
+    top: 49%;
+    left: 4%;
+  }
+}
+
+/* responsiveness for phone screen */
+@media screen and (max-width: 767px) {
+  * {
+    transition: 0.2s ease-in-out;
+  }
+
+  header {
+    flex-direction: column;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+  }
+
+  .header-left-div {
+    width: 100%;
+  }
+
+  .header-right-div {
+    width: 100%;
+  }
+
+  .header-left-div-inner-div p {
+    font-size: 25px;
+  }
+
+  .header-right-div-inner-div p {
+    font-size: 25px;
+  }
+
+  .header-right-div-inner-div p {
+    font-size: 25px;
+    justify-content: start;
+  }
+
+  .session-info {
+    justify-content: start;
+  }
+
+  .explore-admission-div {
+    justify-content: start;
+  }
+
+  .explore-admission {
+    width: 170px;
+    height: 50px;
+    font-size: 13px;
+  }
+  .about-section {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .about-section-picture-div {
+    width: 20%;
+
+    display: flex;
+  }
+  .team-pic-cutout {
+    display: none;
+  }
+  .picture-stack-pics {
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+  }
+
+  .about-section-content-div {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-block {
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-block h2 {
+    margin-top: 10px;
+    width: auto;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .content-block article {
+    width: auto;
+  }
+
+  .content-block a {
+    width: 110px;
+    height: 50px;
+  }
+
+  .tour-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+  }
+
+  .tour-pic {
+    width: 50%;
+    height: 88%;
+    background: url(./images/tour\ pic1.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  .tour-pic2 {
+    width: 50%;
+    height: 88%;
+    background: url(./images/tour-pic2.png) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-panel1 {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .school-name {
+    margin-right: 100%;
+  }
+
+  .footer-panel2 {
+    width: 100%;
+    height: 100%;
+    background-color: #e4bc7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-bubble1 {
+    width: 40px;
+    height: 40px;
+    top: 5%;
+    left: 20%;
+  }
+  .profile-bubble2 {
+    width: 35px;
+    height: 35px;
+    top: 61%;
+    left: 75%;
+  }
+  .profile-bubble3 {
+    width: 29px;
+    height: 29px;
+    top: 8%;
+    left: 84%;
+  }
+  .profile-bubble4 {
+    width: 22px;
+    height: 22px;
+    top: 86%;
+    left: 27%;
+  }
+  .profile-bubble5 {
+    width: 20px;
+    height: 20px;
+    top: 49%;
+    left: 2%;
+  }
+
+  .content-block2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 40px;
+  }
+
+  .blocks {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    color: #303136;
+  }
+}
